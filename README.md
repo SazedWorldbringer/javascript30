@@ -1,0 +1,1 @@
+Learnt how to change CSS variables from Js, got some more knowledge about the forEach() method, found out that you can save the value of a variable as two things using a logical operator(don't know if I worded that correctly) and found out that input elements can be styled based on their types(probably didn't do a very good job of using it)

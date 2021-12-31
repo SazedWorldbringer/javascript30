@@ -1,0 +1,82 @@
+/*========== GOOGLE FONTS ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/*========== VARIABLES ==========*/
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 1p0x;
+}
+
+/*========== BASE ==========*/
+body {
+    text-align: center;
+    background: #A5668B;
+    color: #F2D7EE;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+/*========== APP ==========*/
+img {
+    padding: var(--spacing); 
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+/*========== INPUT STYLING ==========*/
+/* Range Input */
+input[type=range] {
+    -webkit-appearance: none;    
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000;
+    height: 2.25rem;
+    width: 1rem;
+    border-radius: .25rem;
+    background: #fff;
+    cursor: pointer;
+    margin-top: -14px;
+    box-shadow: 0 4px 12px hsla(0, 0%, 20%, .1);
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: .5rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px hsla(0, 0%, 20%, .1);
+    background: #3071a9;
+    border-radius: 1.3px;
+    border: .2px solid #010101;
+}
+
+/* Color Input */
+input[type=color] {
+    -webkit-appearance: none;
+    border: 1px solid black;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    padding: .25rem;
+    
+}
+
+input[type=color]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type=color]::-webkit-color-swatch {
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+}
